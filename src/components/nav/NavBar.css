@@ -1,0 +1,26 @@
+a:link {
+    color: slateblue;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: larger;
+}
+
+a:visited {
+    color: slateblue;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    background-color: lightblue;
+    padding: 1rem;
+}
+
+.navbar__item {
+    flex-basis: 20%;
+    list-style-type: none;
+}
